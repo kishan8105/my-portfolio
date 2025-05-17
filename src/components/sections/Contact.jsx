@@ -112,8 +112,9 @@ function Contact() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   // API url - this should be in an environment variable in a real application
-  const API_URL = 'http://localhost:5000/api';
-
+const API_URL = window.location.hostname === 'localhost' 
+  ? 'http://localhost:5000/api' 
+  : 'https://my-portfolio-drrm.onrender.com/api';
   // Track mouse position for parallax effects
   useEffect(() => {
     const handleMouseMove = (e) => {
