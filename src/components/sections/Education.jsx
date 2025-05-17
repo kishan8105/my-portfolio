@@ -21,7 +21,7 @@ function Education() {
       location: "Bhubneswar, Odisha",
       period: "2023 - 2025",
       description: "Graduated with distinction. Specialized in Software Development and Data Science. Engaged in academic and industry projects involving Full-Stack Web Development and Database Management.",
-      achievements: ["Dean's List (All Semesters)", "Senior Thesis: 'Neural Networks in Edge Computing'", "Teaching Assistant for Data Structures"],
+      achievements: ["Dean's List (All Semesters)", "Senior Thesis: ' Neural Networks in Edge Computing'", "Teaching Assistant for Data Structures"],
       logo: "🎓",
       color: "from-blue-500 to-cyan-400"
     },
